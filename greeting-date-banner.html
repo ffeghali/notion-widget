@@ -3,13 +3,11 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Bebas+Neue" rel="stylesheet">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>greeting</title>
 
-    <style>
-
+<style>
 /*CSS RESETS*/
 
 body{
@@ -24,7 +22,6 @@ h1 {
 
 
 /*CSS START*/
-
 .full-table {
     display: table;
     height: 100%;
@@ -58,17 +55,17 @@ h1 {
     font-size: 2em;
    
 }
-
+        
 .time {
     display: inline;
     min-width: 37px;
 }
-
+        
 .colon {
     font-size: 1.1em;
     display: inline-block;
 }
-
+        
 .date {
     display: inline;
     min-width: 162px;
@@ -76,15 +73,21 @@ h1 {
     font-size: 2em;
     padding-right: 30px;
 }
+        
 .greet{
-    
     display:inline;
     font-family: 'Dancing Script', cursive;
     font-size: 2rem;
-     padding-right: 30px;
+    padding-right: 30px;
+}
+        
+.emoji{ 
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
 }
 
-    </style>
+</style>
 </head>
 <body>
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700" rel="stylesheet">
@@ -93,13 +96,15 @@ h1 {
   <div class="table-cell">
     
     <div class="card">
+        <div class="emoji">🌸</div>
         <div class="greet" id="greet"></div>
-      <div class="date" id="date"></div>
-      <div class="clock">
-        <div class="time" id="hour"></div>
-        <div class="colon">:</div>
-        <div class="time" id="min"></div>
-      </div>
+        <div class="date" id="date"></div>
+        <div class="clock">
+            <div class="time" id="hour"></div>
+            <div class="colon">:</div>
+            <div class="time" id="min"></div>
+        </div>
+        <div class="emoji">🌸</div>
     </div>
     
   </div>
